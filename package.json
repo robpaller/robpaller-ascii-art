@@ -1,0 +1,19 @@
+{
+  "name": "robpaller-ascii-art",
+  "main": "./lib/robpaller-ascii-art",
+  "version": "0.0.0",
+  "description": "An Atom.io Tutorial - Ascii Art",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "robpaller-ascii-art:convert"
+  },
+  "repository": "https://github.com/robpaller/robpaller-ascii-art",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "figlet": "1.0.8"
+  }
+}

@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Toggle robpaller-ascii-art'
+      'command': 'robpaller-ascii-art:toggle'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'robpaller-ascii-art'
+      'submenu': [
+        {
+          'label': 'Toggle'
+          'command': 'robpaller-ascii-art:toggle'
+        }
+      ]
+    ]
+  }
+]
